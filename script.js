@@ -1,51 +1,51 @@
 let cardArray = [
   {
     name: "fries",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/fries_t5rfhy.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673422444/fries_w0jrsa.jpg",
   },
   {
     name: "fries",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/fries_t5rfhy.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673422444/fries_w0jrsa.jpg",
   },
   {
     name: "pizza",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/pizza_bmge3a.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673422929/pizza_upf4id.png",
   },
   {
     name: "pizza",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/pizza_bmge3a.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673422929/pizza_upf4id.png",
   },
   {
     name: "milkshake",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/milkshake_emts11.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423062/milkshake_oygnkt.png",
   },
   {
     name: "milkshake",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/milkshake_emts11.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423062/milkshake_oygnkt.png",
   },
   {
     name: "ice-cream",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/ice-cream_olhaql.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423195/ice_cream_xj5gut.png",
   },
   {
     name: "ice-cream",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/ice-cream_olhaql.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423195/ice_cream_xj5gut.png",
   },
   {
     name: "hotdog",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/hotdog_ng2hna.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423341/hotdog_wuvsbe.webp",
   },
   {
     name: "hotdog",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/hotdog_ng2hna.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423341/hotdog_wuvsbe.webp",
   },
   {
     name: "cheeseburger",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/cheeseburger_ju7b3t.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423435/cheese-burger-_lii3yv.webp",
   },
   {
     name: "cheeseburger",
-    img: "https://res.cloudinary.com/fakod29/image/upload/v1604561421/cheeseburger_ju7b3t.png",
+    img: "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423435/cheese-burger-_lii3yv.webp",
   },
 ];
 
@@ -83,7 +83,7 @@ function createBoard(grid, array) {
     let img = document.createElement("img");
     img.setAttribute(
       "src",
-      "https://res.cloudinary.com/fakod29/image/upload/v1604561420/blank_d3g5ij.png"
+      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423627/seamless-white-flower-pattern-on-pink-background-hand-drawn-in-cartoon-style-use-for-prints-wallpaper-fashion-fabrics-textiles-vector_ogxw16.webp"
     );
     img.setAttribute("data-id", index);
     grid.appendChild(img);
@@ -106,15 +106,6 @@ function flipCard() {
   source.src = `${clicked}.mp3`;
   audio.load();
   audio.play();
-  //this is the second method to play a sound
-
-  //    let clicked =cardArray[selected].name
-  // cardsSelected.push(clicked);
-  // let sound =new Audio(`./${clicked}.mp3`)
-  // function playSound(sound){
-  // sound.play()
-  // }
-  // playSound(sound)
 
   cardsId.push(selected);
   this.classList.add("flip");
@@ -140,11 +131,11 @@ function checkForMatch() {
   } else {
     imgs[firstCard].setAttribute(
       "src",
-      "https://res.cloudinary.com/fakod29/image/upload/v1604561420/blank_d3g5ij.png"
+      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423627/seamless-white-flower-pattern-on-pink-background-hand-drawn-in-cartoon-style-use-for-prints-wallpaper-fashion-fabrics-textiles-vector_ogxw16.webp"
     );
     imgs[secondCard].setAttribute(
       "src",
-      "https://res.cloudinary.com/fakod29/image/upload/v1604561420/blank_d3g5ij.png"
+      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423627/seamless-white-flower-pattern-on-pink-background-hand-drawn-in-cartoon-style-use-for-prints-wallpaper-fashion-fabrics-textiles-vector_ogxw16.webp"
     );
     alert("wrong, please try again");
     source.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/error.mp3";

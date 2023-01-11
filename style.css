@@ -2,6 +2,7 @@
   width: 90%;
   height: 300px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 60px auto;
 }
