@@ -1,3 +1,4 @@
+// Defining the variables and data in JS
 let cardArray = [
   {
     name: "fries",
@@ -63,6 +64,9 @@ let cardsId = [];
 let cardsSelected = [];
 let cardsWon = 0;
 let clicks = 0;
+
+// Setting up the board on DOM load in JS
+
 document.addEventListener("DOMContentLoaded", function () {
   //define functions
 
@@ -114,6 +118,9 @@ function flipCard() {
     setTimeout(checkForMatch, 500);
   }
 }
+
+// Check if the cards clicked is correct
+
 // checkForMatch function
 
 function checkForMatch() {
@@ -156,6 +163,9 @@ function checkWon() {
     setTimeout(() => (popup.style.display = "flex"), 300);
   }
 }
+
+// Restart the game
+
 // The replay function
 
 function replay() {
