@@ -87,7 +87,7 @@ function createBoard(grid, array) {
     let img = document.createElement("img");
     img.setAttribute(
       "src",
-      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423627/seamless-white-flower-pattern-on-pink-background-hand-drawn-in-cartoon-style-use-for-prints-wallpaper-fashion-fabrics-textiles-vector_ogxw16.webp"
+      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673427188/Screen_Shot_2023-01-11_at_12.51.52_AM_n2przi.png"
     );
     img.setAttribute("data-id", index);
     grid.appendChild(img);
@@ -138,11 +138,11 @@ function checkForMatch() {
   } else {
     imgs[firstCard].setAttribute(
       "src",
-      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423627/seamless-white-flower-pattern-on-pink-background-hand-drawn-in-cartoon-style-use-for-prints-wallpaper-fashion-fabrics-textiles-vector_ogxw16.webp"
+      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673427188/Screen_Shot_2023-01-11_at_12.51.52_AM_n2przi.png"
     );
     imgs[secondCard].setAttribute(
       "src",
-      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673423627/seamless-white-flower-pattern-on-pink-background-hand-drawn-in-cartoon-style-use-for-prints-wallpaper-fashion-fabrics-textiles-vector_ogxw16.webp"
+      "https://res.cloudinary.com/dl4dpltl4/image/upload/c_scale,h_100,w_133/v1673427188/Screen_Shot_2023-01-11_at_12.51.52_AM_n2przi.png"
     );
     alert("wrong, please try again");
     source.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/error.mp3";
