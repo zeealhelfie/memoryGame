@@ -92,7 +92,7 @@ button {
 }
 .controls-container button {
   font-size: 1.3em;
-  box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
+  box-shadow: 0 0.6em 2em rgba(245, 244, 240, 0.949);
 }
 .hide {
   display: none;
